@@ -2,9 +2,13 @@
 
 int main()
 {
-    char nome[100];
+    int n1, n2;
+    double resultado;
+    printf("Digite um numero: ");
+    scanf("%d", &n1);
+    printf("Digite outro numero: ");
+    scanf("%d", &n2);
 
-    printf("Escreva o seu nome: ");
-    scanf("%s", nome);
-    printf("Muito prazer, %s",nome);
+    resultado = n1 + n2 / 2;
+    printf("O resultado e: %f", resultado);
 }
